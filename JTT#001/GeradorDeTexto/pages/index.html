@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zinti</title>
+    <link rel="stylesheet" href="../assets/index.css">
+</head>
+
+<body>
+    <header class="top-header">
+        <h1>Zinti</h1>
+    </header>
+
+    <div class="main-box">
+        <div>
+            <label>Insira uma palavra que deseje aparecer na senha</label>
+            <input id="palavra">
+        </div>
+        <div>
+            <label>Quantos caracteres terá a senha ?</label>
+            <input id="tamanho" type="number">
+        </div>
+        <div>
+            <label for="numeros">Números</label>
+            <input id="numeros" type="checkbox">
+
+            <label for="maiusculas">Letras maiúsculas</label>
+            <input id="maiusculas" type="checkbox">
+
+            <label for="minusculas">Letras minúsculas</label>
+            <input id="minusculas" type="checkbox">
+
+            <label for="simbolos">Símbolos</label>
+            <input id="simbolos" type="checkbox">
+        </div>
+        <div class="output-box">
+            <output id="senhaOutput"></output>
+            <button id="criarBtn">Criar</button>
+        </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
